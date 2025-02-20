@@ -1,8 +1,8 @@
 function arrToSet(arr) {
     return new Set(arr)
 }
-// const arr1 = [1,2,3,4,4,5]
-// console.log(arrToSet(arr1))
+const arr1 = [1,2,3,4,4,5]
+console.log(arrToSet(arr1))
 
 function arrToStr(arr) {
     let str = ""
@@ -45,11 +45,11 @@ function objToArr(obj) {
     let lol = Object.values(obj)
     return Array.from(lol)
 }
-const obj1 = {
-    u: 1,
-    j: 2
-}
-console.log(objToArr(obj1))
+// const obj1 = {
+//     u: 1,
+//     j: 2
+// }
+// console.log(objToArr(obj1))
 
 
 function objToMap(obj) {
