@@ -12,4 +12,5 @@ function vowelDots(str) {
     return res
 }
 
+
 console.log(vowelDots("2233265ee"))
